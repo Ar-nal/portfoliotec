@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Textos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de Textos</h1>
+    </header>
+    
+    <main class="main-container">
+        <div class="input-container">
+            <textarea id="inputText" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="buttons">
+                <button id="encryptButton">Encriptar</button>
+                <button id="decryptButton">Desencriptar</button>
+            </div>
+        </div>
+        
+        <div class="output-container">
+            <div id="outputContainer">
+                <img id="placeholderImage" src="image/search.gif" alt="Placeholder Image">
+                <p id="outputText">Ningún mensaje encontrado.
+                    Ingrese el texto que desea encriptar o desencriptar.</p>
+            </div>
+            <button id="copyButton">Copiar</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Naldo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
